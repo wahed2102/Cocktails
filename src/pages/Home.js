@@ -1,10 +1,13 @@
 import React from "react";
+import CocktailList from "../components/CocktailList";
+import SearchForm from "../components/SearchForm";
 
 function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-    </div>
+    <main>
+      <SearchForm />
+      <CocktailList />
+    </main>
   );
 }
 
